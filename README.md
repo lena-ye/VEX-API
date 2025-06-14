@@ -1,3 +1,6 @@
-API for accessing VEX data officially: https://www.robotevents.com/api/v2
+VEX API: https://www.robotevents.com/api/v2
 
-You would want to log in first and create an Access Token to get authorized. 
+Instructions:
+1. log in
+2. create Access Token to become authorized
+3. paste your Access Token into the code files to use them
