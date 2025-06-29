@@ -1,0 +1,29 @@
+# Build outputs
+build/
+cmake/build/
+*.exe
+*.obj
+
+# Temporary/dev files
+*.log
+*.tmp
+*.bak
+
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Compiled C++ files
+*.o
+*.obj
+*.exe
+
+
+# API inputs
+python/config.py
+cmake/*.txt
+
+# all JSON files except for samples
+*.json
