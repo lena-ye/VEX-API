@@ -1,15 +1,15 @@
 import requests
 import json
 import os
-from config import API_KEY, TEAM_NUMBER
+from config import API_KEY, TEAM_NUMBER # you need to create a config.py file 
 
 base_url = "https://www.robotevents.com/api/v2/teams"
 needed_parameters = [
-    ("number[]", f"{TEAM_NUMBER}"),
+    ("number[]", f"{TEAM_NUMBER}"), # add TEAM_NUMBER="..." to config.py
 ]
 
 my_headers = {
-    "Authorization": f"Bearer {API_KEY}",
+    "Authorization": f"Bearer {API_KEY}", # add API_KEY="..." to config.py
     "Accept": "application/json"
 }
 
