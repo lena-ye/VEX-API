@@ -1,7 +1,6 @@
 ### VEX API
 https://www.robotevents.com/api/v2
 
-<br>
 
 ### Instructions
 1. log in
@@ -19,7 +18,6 @@ https://www.robotevents.com/api/v2
 > I have included an example where API requests are done in C++, in the `cmake` folder, with instructions.
 > 
 
-<br>
 
 ### Files and their functions
 | File | Purpose |
