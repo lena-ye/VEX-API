@@ -10,6 +10,17 @@ https://www.robotevents.com/api/v2
 
 <br>
 
+> [!Note]
+> It is way easier to work with APIs using Python in this case where millisecond performance doesn't matter.
+>
+> In Python, you just press "run" and get your reponse.
+>
+> In C++, there are several libraries and workloads you need to download. Plus, you need to repeat the entire build process every time you make a change.
+> I have included an example where API requests are done in C++, in the `cmake` folder, with instructions.
+> 
+
+<br>
+
 ### Files and their functions
 | File | Purpose |
 |------|---------|
