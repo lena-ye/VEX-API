@@ -22,4 +22,4 @@ https://www.robotevents.com/api/v2
 ### Files and their functions
 | File | Purpose |
 |------|---------|
-| `teams.py` |gets information about a team, such as ID, Name, Organization, and Location|
+| `team.py` |gets information about a team, such as ID, Name, Organization, and Location|
