@@ -5,7 +5,7 @@ https://www.robotevents.com/api/v2
 ### Instructions
 1. log in
 2. create Access Token to become authorized
-3. paste your Access Token into the code files to get response
+3. paste your Access Token into config.py to be applied and get response
 
 <br>
 
