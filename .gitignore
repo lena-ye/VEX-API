@@ -29,4 +29,6 @@ cmake/*.txt
 *.json
 
 # Except
-!Python/Schemas/*.json
+!Python/Schemas/**/*.json
+!Python/2025-Worlds/*.json
+!Python/programs.json

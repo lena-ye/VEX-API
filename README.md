@@ -22,4 +22,7 @@ https://www.robotevents.com/api/v2
 ### Files and their functions
 | File | Purpose |
 |------|---------|
-| `team.py` |gets information about a team, such as ID, Name, Organization, and Location|
+| [team.py](./Python/team.py) | gets information about a team, such as ID, Name, Organization, and Location. |
+| [teams_all.py](./Python/teams_all.py) | gets all teams participating in VEX. |
+| [programs.py](./Python/programs.py) | lists all programs offered by VEX. Specifically, V5RC, VURC, WORKSHOP, VGOC, FAC, and VAIRC. |
+| [event_worlds.py](./Python/25-Worlds-Dallas/event_worlds.py) | information on Worlds in May 2025. | 
