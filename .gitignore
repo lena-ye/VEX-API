@@ -22,7 +22,8 @@ __pycache__/
 
 
 # API inputs
-python/config.py
+Python/config.py
+Python/25-Worlds-Dallas/config_interactive.py
 cmake/*.txt
 
 # Outputs 
@@ -30,5 +31,4 @@ cmake/*.txt
 
 # Except
 !Python/Schemas/**/*.json
-!Python/2025-Worlds/*.json
 !Python/programs.json

@@ -1,3 +1,5 @@
+# teams_all.py produces a .json file containing all teams at the College level.
+
 import requests
 import json
 import os
@@ -36,8 +38,8 @@ def get_all_teams():
 teams = get_all_teams()
 
 # Save to a JSON file in the same directory
-file_path = os.path.join(os.path.dirname(__file__), "teams_all.json")
+file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), os.path.splitext(os.path.basename(__file__))[0] + ".json")
 with open(file_path, "w", encoding="utf-8") as f:
     json.dump(teams, f, ensure_ascii=False, indent=2) # for readability
 
-print(f"Saved {len(teams)} teams to 'teams_all.json'")
+print(f"Saved {len(teams)} teams to {file_path}")

@@ -13,11 +13,9 @@ my_headers = {
     "Accept": "application/json"
 }
 
-all_teams = []
 
 # Get current file path to save .json file in the current directory
-file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "team.json")
-
+file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), os.path.splitext(os.path.basename(__file__))[0] + ".json")
 
 response = requests.get(base_url, params = needed_parameters, headers = my_headers)
 print("Status Code:", response.status_code)
@@ -27,17 +25,10 @@ if response.status_code == 200:
     data = response.json()
 
     # Method 1 - Output data directly to console
-
     # print(json.dumps(data, indent=4))
 
 
     # Method 2 - Save data to .json file
-
-    # Check file path 
-    # filepath = os.path.abspath("teams.json")
-    # print(f"File saved to: {filepath}")
-
-    # Write data into file
     with open(file_path, "w") as f:
         json.dump(data, f, indent=4)
 

@@ -26,3 +26,12 @@ https://www.robotevents.com/api/v2
 | [teams_all.py](./Python/teams_all.py) | gets all teams participating in VEX. |
 | [programs.py](./Python/programs.py) | lists all programs offered by VEX. Specifically, V5RC, VURC, WORKSHOP, VGOC, FAC, and VAIRC. |
 | [event_worlds.py](./Python/25-Worlds-Dallas/event_worlds.py) | information on Worlds in May 2025. | 
+
+
+#### Closing Tasks
+| Task | Date completed |
+| ----- | ------------- |
+| file path generalization in .py files | 2025-07-05 |
+| rename variables for clarity in `ap.py` | |
+| add file descriptions in .py file headers | | 
+| update Files and their functions section in README.md | | 
