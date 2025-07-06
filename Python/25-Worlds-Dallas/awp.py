@@ -3,12 +3,8 @@ import json
 import os
 import time
 from collections import defaultdict
-from datetime import date
 from config_interactive import *
 
-# Global constants - MODIFY FOR YOUR NEEDS
-START_DATE = "2025-05-13"
-END_DATE = f"{date.today()}"
 
 # ====================================================================
 # Step [] - Get info about a team 

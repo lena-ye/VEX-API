@@ -32,6 +32,7 @@ https://www.robotevents.com/api/v2
 | Task | Date completed |
 | ----- | ------------- |
 | file path generalization in .py files | 2025-07-05 |
-| rename variables for clarity in `ap.py` | |
+| create template for `config_interactive.py` in `PROCESS.md`| |
+| rename variables for clarity in `awp.py` | |
 | add file descriptions in .py file headers | | 
 | update Files and their functions section in README.md | | 
