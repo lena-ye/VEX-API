@@ -22,13 +22,12 @@ __pycache__/
 
 
 # API inputs
-Python/config.py
-Python/25-Worlds-Dallas/config_interactive.py
+*config*
 cmake/*.txt
 
 # Outputs 
 *.json
 
-# Except
+# Exceptions
 !Python/Schemas/**/*.json
 !Python/programs.json
