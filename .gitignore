@@ -27,6 +27,7 @@ cmake/*.txt
 
 # Outputs 
 *.json
+*.yml
 
 # Exceptions
 # !Python/Schemas/**/*.json
