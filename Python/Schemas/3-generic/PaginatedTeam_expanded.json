@@ -1,0 +1,151 @@
+{
+  "PaginatedTeam": {
+    "type": "object",
+    "properties": {
+      "meta": {
+        "_originalRef": "#/components/schemas/PageMeta",
+        "type": "object",
+        "properties": {
+          "current_page": {
+            "type": "integer"
+          },
+          "first_page_url": {
+            "type": "string"
+          },
+          "from": {
+            "type": "integer"
+          },
+          "last_page": {
+            "type": "integer"
+          },
+          "last_page_url": {
+            "type": "string"
+          },
+          "next_page_url": {
+            "type": "string"
+          },
+          "path": {
+            "type": "string"
+          },
+          "per_page": {
+            "type": "integer"
+          },
+          "prev_page_url": {
+            "type": "string"
+          },
+          "to": {
+            "type": "integer"
+          },
+          "total": {
+            "type": "integer"
+          }
+        }
+      },
+      "data": {
+        "type": "array",
+        "items": {
+          "_originalRef": "#/components/schemas/Team",
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "number": {
+              "type": "string"
+            },
+            "team_name": {
+              "type": "string"
+            },
+            "robot_name": {
+              "type": "string"
+            },
+            "organization": {
+              "type": "string"
+            },
+            "location": {
+              "_originalRef": "#/components/schemas/Location",
+              "type": "object",
+              "properties": {
+                "venue": {
+                  "type": "string"
+                },
+                "address_1": {
+                  "type": "string"
+                },
+                "address_2": {
+                  "type": "string"
+                },
+                "city": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "postcode": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                },
+                "coordinates": {
+                  "_originalRef": "#/components/schemas/Coordinates",
+                  "type": "object",
+                  "properties": {
+                    "lat": {
+                      "type": "number",
+                      "format": "float"
+                    },
+                    "lon": {
+                      "type": "number",
+                      "format": "float"
+                    }
+                  }
+                }
+              }
+            },
+            "registered": {
+              "type": "boolean"
+            },
+            "program": {
+              "_originalRef": "#/components/schemas/IdInfo",
+              "type": "object",
+              "required": [
+                "id",
+                "name"
+              ],
+              "properties": {
+                "id": {
+                  "type": "integer",
+                  "format": "int32"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "string",
+                  "nullable": true
+                }
+              }
+            },
+            "grade": {
+              "_originalRef": "#/components/schemas/Grade",
+              "type": "string",
+              "enum": [
+                "College",
+                "High School",
+                "Middle School",
+                "Elementary School"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "number",
+            "program"
+          ]
+        }
+      }
+    }
+  }
+}

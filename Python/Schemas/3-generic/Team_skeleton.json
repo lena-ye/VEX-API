@@ -1,0 +1,40 @@
+{
+  "Team": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "integer",
+        "format": "int32"
+      },
+      "number": {
+        "type": "string"
+      },
+      "team_name": {
+        "type": "string"
+      },
+      "robot_name": {
+        "type": "string"
+      },
+      "organization": {
+        "type": "string"
+      },
+      "location": {
+        "$ref": "#/components/schemas/Location"
+      },
+      "registered": {
+        "type": "boolean"
+      },
+      "program": {
+        "$ref": "#/components/schemas/IdInfo"
+      },
+      "grade": {
+        "$ref": "#/components/schemas/Grade"
+      }
+    },
+    "required": [
+      "id",
+      "number",
+      "program"
+    ]
+  }
+}

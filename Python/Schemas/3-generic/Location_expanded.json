@@ -1,0 +1,42 @@
+{
+  "Location": {
+    "type": "object",
+    "properties": {
+      "venue": {
+        "type": "string"
+      },
+      "address_1": {
+        "type": "string"
+      },
+      "address_2": {
+        "type": "string"
+      },
+      "city": {
+        "type": "string"
+      },
+      "region": {
+        "type": "string"
+      },
+      "postcode": {
+        "type": "string"
+      },
+      "country": {
+        "type": "string"
+      },
+      "coordinates": {
+        "_originalRef": "#/components/schemas/Coordinates",
+        "type": "object",
+        "properties": {
+          "lat": {
+            "type": "number",
+            "format": "float"
+          },
+          "lon": {
+            "type": "number",
+            "format": "float"
+          }
+        }
+      }
+    }
+  }
+}

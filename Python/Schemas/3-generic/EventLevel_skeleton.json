@@ -1,0 +1,13 @@
+{
+  "EventLevel": {
+    "type": "string",
+    "enum": [
+      "World",
+      "National",
+      "Regional",
+      "State",
+      "Signature",
+      "Other"
+    ]
+  }
+}

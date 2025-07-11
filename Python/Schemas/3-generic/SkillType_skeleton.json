@@ -1,0 +1,10 @@
+{
+  "SkillType": {
+    "type": "string",
+    "enum": [
+      "driver",
+      "programming",
+      "package_delivery_time"
+    ]
+  }
+}

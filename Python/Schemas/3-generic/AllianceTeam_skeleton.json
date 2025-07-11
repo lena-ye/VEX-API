@@ -1,0 +1,13 @@
+{
+  "AllianceTeam": {
+    "type": "object",
+    "properties": {
+      "team": {
+        "$ref": "#/components/schemas/IdInfo"
+      },
+      "sitting": {
+        "type": "boolean"
+      }
+    }
+  }
+}

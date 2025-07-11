@@ -1,0 +1,33 @@
+{
+  "Season": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "integer",
+        "format": "int32"
+      },
+      "name": {
+        "type": "string"
+      },
+      "program": {
+        "$ref": "#/components/schemas/IdInfo"
+      },
+      "start": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "end": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "years_start": {
+        "type": "integer",
+        "format": "int32"
+      },
+      "years_end": {
+        "type": "integer",
+        "format": "int32"
+      }
+    }
+  }
+}

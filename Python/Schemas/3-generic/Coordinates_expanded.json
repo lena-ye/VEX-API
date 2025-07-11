@@ -1,0 +1,15 @@
+{
+  "Coordinates": {
+    "type": "object",
+    "properties": {
+      "lat": {
+        "type": "number",
+        "format": "float"
+      },
+      "lon": {
+        "type": "number",
+        "format": "float"
+      }
+    }
+  }
+}

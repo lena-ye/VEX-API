@@ -1,0 +1,29 @@
+{
+  "Alliance": {
+    "type": "object",
+    "required": [
+      "color",
+      "score",
+      "teams"
+    ],
+    "properties": {
+      "color": {
+        "type": "string",
+        "enum": [
+          "red",
+          "blue"
+        ]
+      },
+      "score": {
+        "type": "integer",
+        "format": "int32"
+      },
+      "teams": {
+        "type": "array",
+        "items": {
+          "$ref": "#/components/schemas/AllianceTeam"
+        }
+      }
+    }
+  }
+}

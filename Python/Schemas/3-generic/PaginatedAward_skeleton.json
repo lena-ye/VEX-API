@@ -1,0 +1,16 @@
+{
+  "PaginatedAward": {
+    "type": "object",
+    "properties": {
+      "meta": {
+        "$ref": "#/components/schemas/PageMeta"
+      },
+      "data": {
+        "type": "array",
+        "items": {
+          "$ref": "#/components/schemas/Award"
+        }
+      }
+    }
+  }
+}

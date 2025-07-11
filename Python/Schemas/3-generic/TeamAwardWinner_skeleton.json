@@ -1,0 +1,13 @@
+{
+  "TeamAwardWinner": {
+    "type": "object",
+    "properties": {
+      "division": {
+        "$ref": "#/components/schemas/IdInfo"
+      },
+      "team": {
+        "$ref": "#/components/schemas/IdInfo"
+      }
+    }
+  }
+}

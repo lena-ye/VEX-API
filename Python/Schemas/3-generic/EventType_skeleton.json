@@ -1,0 +1,11 @@
+{
+  "EventType": {
+    "type": "string",
+    "enum": [
+      "tournament",
+      "league",
+      "workshop",
+      "virtual"
+    ]
+  }
+}
