@@ -1,8 +1,0 @@
-{
-  "Locations": {
-    "type": "object",
-    "additionalProperties": {
-      "$ref": "#/components/schemas/Location"
-    }
-  }
-}
