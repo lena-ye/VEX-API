@@ -29,5 +29,5 @@ cmake/*.txt
 *.json
 
 # Exceptions
-!Python/Schemas/**/*.json
+# !Python/Schemas/**/*.json
 !Python/programs.json
