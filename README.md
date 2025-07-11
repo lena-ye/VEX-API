@@ -29,10 +29,8 @@ https://www.robotevents.com/api/v2
 
 
 #### Closing Tasks
-| Task | Date completed |
-| ----- | ------------- |
-| file path generalization in .py files | 2025-07-05 |
-| create template for `config_interactive.py` in `PROCESS.md`| |
-| rename variables for clarity in `awp.py` | |
-| add file descriptions in .py file headers | | 
-| update Files and their functions section in README.md | | 
+- create template for `config_interactive.py` in `PROCESS.md`
+- rename variables for clarity in `awp.py` 
+- add file descriptions in .py file headers 
+- update Files and their functions section in README.md
+
