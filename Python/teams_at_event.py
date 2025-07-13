@@ -1,3 +1,7 @@
+# obtains a list of all teams attending a particular event
+
+
+# Imports
 import requests
 import json
 import os

@@ -1,3 +1,6 @@
+# Obtains a list of events a team has attended in the specified time frame
+
+# Imports
 import requests
 import json
 import os

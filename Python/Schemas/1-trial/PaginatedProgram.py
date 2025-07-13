@@ -1,3 +1,10 @@
+# This file serves as an experimentation playground as the author was
+#   working with schemas for the first time.
+# PaginatedProgram was chosen as it had schemas embedded inside itself, making its
+#   .json response a lot more customizable.
+
+
+# Imports
 import requests
 import yaml
 import json

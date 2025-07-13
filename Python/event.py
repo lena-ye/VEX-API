@@ -1,5 +1,5 @@
-# Gets information about one event using its SKU, which can easily be found on 
-# RobotEvents event registration page 
+# Gets information about one event using its SKU, which is a unique event identifier that can
+#   be easily found on the registration page at robotevents.com
 
 import requests
 import json

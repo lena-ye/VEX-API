@@ -1,5 +1,5 @@
 # This program obtains the rankings of all teams in one division
-# created so we can get teams by divison
+# created so we can get teams in a particular divison, to be used in avg_awp.py
 # Limitation: only works for past events
 
 import requests
